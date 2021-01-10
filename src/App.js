@@ -23,10 +23,10 @@ function App() {
         <h1>React Basic Syntax Assignment-1</h1>
       </header>
       <body>
+      <UserInput userName={userNameState} changed={eventHandler} />
         <UserOutput userName={userNameState} />
-        <UserOutput />
-        <UserOutput />
-        <UserInput userName={userNameState} changed={eventHandler} />
+        <UserOutput userName={userNameState} />
+        <UserOutput userName={userNameState} />
       </body>
     </div>
   );
